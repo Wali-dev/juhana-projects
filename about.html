@@ -1,151 +1,106 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Healio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
 </head>
 
-
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">HEALIO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="article.html">Articles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="book.html">Book an Appointment</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="signin.html">Sign In</a>
-          </li>
-          
-            </ul>
-          </li>
-          
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-<!--story section  -->
-<div class="text-center m-3 p-4 custom-beige ">
-  <h1 class="fst-italic">OUR STORY</h1>
-  <h5>
-    At Healio, we believe mental health is just as important as physical health—and it deserves the same care, attention, and understanding.
+  <!-- Navbar -->
+  <div id="navbar-placeholder"></div>
 
-    We combine scientific knowledge with real support—sharing clear explanations, helpful articles, and access to resources like counseling or medical guidance. Whether you’re looking to learn about how the brain works, explore mental health topics, or find someone to talk to, Healio is here for you.
+  <!-- Story Section -->
+  <section class="text-center m-3 p-4 custom-beige">
+    <h1 class="fst-italic">OUR STORY</h1>
+    <h5>
+      At Healio, we believe mental health is just as important as physical health—and it deserves the same care, attention, and understanding. We combine scientific knowledge with real support—sharing clear explanations, helpful articles, and access to resources like counseling or medical guidance. Whether you’re looking to learn about how the brain works, explore mental health topics, or find someone to talk to, Healio is here for you.
+    </h5>
+  </section>
 
-
-  </h5>
-  <!--explore section -->
-  <div class="row m-3 p-3 ">
+  <!-- Explore Section -->
+  <section class="row m-3 p-3">
     <div class="col-6 d-flex justify-content-center flex-column custom-gans">
-        <h1 class="text-center">
-            ABOUT HEALIO
-        </h1>
-        <h5 class="fst-italic fw-medium">
-            Mental health struggles have become one of the most pressing challenges of our time. Anxiety, depression, and emotional stress affect people across all ages and backgrounds—yet the stigma, confusion, and lack of awareness still prevent many from seeking help. As conversations around mental well-being grow louder, so does the need for trusted, science-based understanding. That’s where Healio begins.
-        </h5>
+      <h1 class="text-center">ABOUT HEALIO</h1>
+      <h5 class="fst-italic fw-medium">
+        Mental health struggles have become one of the most pressing challenges of our time. Anxiety, depression, and emotional stress affect people across all ages and backgrounds—yet the stigma, confusion, and lack of awareness still prevent many from seeking help. As conversations around mental well-being grow louder, so does the need for trusted, science-based understanding. That’s where Healio begins.
+      </h5>
     </div>
     <div class="col-6 d-flex justify-content-start">
-        <img class="circle" width="470px" height="470px" style="border-radius: 50%; object-fit: cover;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQDq_zOuevBX0NGjcmdbqfKZvhqMaWIyKtg&s" />
+      <img class="circle" width="470" height="470" style="border-radius: 50%; object-fit: cover;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQDq_zOuevBX0NGjcmdbqfKZvhqMaWIyKtg&s" alt="About Healio">
     </div>
-</div>
+  </section>
 
+  <!-- Origins Section -->
+  <section class="d-flex flex-wrap m-3 p-4 align-items-start">
+    <div class="col-md-6">
+      <img src="https://lifeskillssouthflorida.com/wp-content/uploads/2024/12/AdobeStock_906787554-1024x574.jpeg" width="100%" height="500" style="object-fit: cover;" alt="Healio Origins">
+    </div>
 
-<div class="d-flex m-3 p-4 align-items-start">
- 
-  <div class="col-md-6">
-    <img 
-      src="https://lifeskillssouthflorida.com/wp-content/uploads/2024/12/AdobeStock_906787554-1024x574.jpeg" 
-      width="100%" 
-      height="500px" 
-      style="object-fit: cover;" 
-      alt="Heal-io Image"
-    />
-  </div>
+    <div class="col-md-6 ps-4">
+      <div class="custom-hans mb-4">
+        <h2>The Origins of Healio</h2>
+        <h5>
+          Healio originated as a student-led initiative in response to the growing need for accessible mental health awareness. Recognizing the gap between lived experiences and scientific understanding, we set out to create a platform that bridges both—offering evidence-based insights, simplified research, and a space grounded in empathy and clarity.
+        </h5>
+      </div>
 
- <div d-flex flex-column col-md-6 ps-4>
-  <div class="col-md-6 ps-4 custom-hans">
-    <h2>The origins of Heal-io</h2>
-    <h5>
-      Healio originated as a student-led initiative in response to the growing need for accessible mental health awareness. Recognizing the gap between lived experiences and scientific understanding, we set out to create a platform that bridges both—offering evidence-based insights, simplified research, and a space grounded in empathy and clarity.
-    </h5>
-  </div>
- 
+      <div class="custom-cyan">
+        <h1 class="text-center">What We Offer</h1>
+        <ul class="fst-italic fw-medium">
+          <li>Educational content grounded in neuroscience and psychology</li>
+          <li>Simplified research articles and mental health explainers</li>
+          <li>Tools for self-care and emotional well-being</li>
+          <li>Access to counseling and medical help for those in need</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-<div class="col-md-6 d-flex flex-column text-start ps-4 custom-cyan">
-  <h1 class="text-center">
-    What We Offer
-  </h1>
-  <h5 class="fst-italic fw-medium left">
-    <ul>
-    
-<li>Educational content grounded in neuroscience and psychology</li>
-<li>Simplified research articles and mental health explainers</li>
-<li>Tools for self-care and emotional well-being</li>
-<li>Access to counseling and medical help for those in need</li>
-
-</ul>
-      </h5>
-</div>
-</div>
-</div>  
-<footer class="footer-container">
-  <div class="left-footer custom-footer2">
-    <h1>Healio</h1>
-    <p>Your path to a Healthy Mind</p>
-    <p>Contact number: +8801-XXXXXXXX</p>
-    <div class="d-flex justify-content-center gap-4 mt-4">
-      
+  <!-- Footer -->
+  <footer class="footer-container">
+    <div class="left-footer">
+      <h1>Healio</h1>
+      <p>Your path to a Healthy Mind</p>
+      <p>Contact number: +8801-XXXXXXXX</p>
+      <div class="d-flex justify-content-center gap-4 mt-4">
         <a href="https://www.facebook.com" target="_blank" class="social-icon">
           <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
         </a>
         <a href="https://www.twitter.com" target="_blank" class="social-icon">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAVFBMVEVHqej///9Cp+j6/f7W6vnw+P1Mq+k8pedjtOvh8Pvk8vv3+/50u+1QrelVr+qg0PKIxO/K5Pey2fWYzPF8v+7A4fe53fap1PMroOaOyPBquOzP6fmaFgHaAAAFC0lEQVR4nO3c2ZajKhQGYN2A4BCcNZr3f88DSarNoBGiBdZZ++u+qItaiX9gyxCsIEAIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC6GBAuf0Q3X/4q9Tly7Go+6qq+rwY5WyePxIRTlnd0iQNtTShbd5I/vo7cIq8XJwdgKyiLHyUxl0TPcXhpyEXri/s9QNdx2VO0/AVSSrx77WA86JNupPbjsbHwjYNF+V7lGsc2txei595cWEhs37pjc4dGe3ekmfxbBSNDWeukozVtZpa6bphkpAJmzR8nG+Wu0EW3b2aksxxw/Bev+to/gnykX3K8tjpcsdZQJb6fWlmmobL5T72onVc/ar/J9c3vmRmvw9RZ5qF6nEHwOFIA8O9AGhj9DHCYNrJqOAAXBbNb0eYRP1PNceFQRoQF7MopBRnHjV5adrkOwDZkZ/3TwaD2WJt1jCsF+PQlUmY1u7qBmRLpiuo1ioWRGnWLnFJYx2brL7kjp7ChKQdPzcONIlhL/t5QZej5nMYVThD8GlsOPWm5X9zsZxbbPNYM1dpK/nih3kflIxRi7F4jzBRRV6uIBmipUuAkVplEY4HTajfJ1pltrQKboxHf53lY4/9DbyYqYJULbNm4xSG9a9fo13urr8WZr7nJFUj3xfw5sN/mOQetjgW51pJO4zRy4drEaZbLLzfxIel1QmjVSH4Yx6LMJWXnQw4Ld+h0qSsCsmnQOY14ydMwOtPF0VYXOYZnNVimAeQGd+aPYUJ+Nr9lqQs7mp1RzibD5rewgjTKyTs4+r/CGFWOtpXSO8njC5u46WwqTT3EeU0SgAQ7esMbSNWe8iiVlutGkzOojOuBiNJ4SUMDVPa11lW2a1UVsQOtzGmMLebbZpcLruGcbySuTu9rWd2UbpeylxBvm+x3Djdx5jMrmc2Y17uzGr4N9zVs5KYbCj+RprqF8L4qf9p53xPbrfLntLsPpdRkxlfX5lzsfstwPlXmZNzvncY5xtmEwC7fcpVpPN4MENP0PbEBm+9TKex2qlcFfs9Y2KxU7GOVD4bRqfZcXnGnH6PMYdH+V6DZ3n2nEUf3Mm6ZI/WIY3vhtGH+jhk/c8Bsg0u/k/MyVFIKUXRb+5snibMD6KBXsry/hXxtobxsv3/BD6curKSeh0w76aTGtuUXtbLL3ZqGo/z5Se7NI2fjYw3EO0wo4k9LZff7LBII0eo/huebU1T+Y7wgDfb0nhcYM7gRbxhduZrs2wJNO3XjcNy/2P/MxA5/a5xSOdrr2wZBGrq/E0cP/v+ayBQc2frMSe2OrTukH7MR4xFazElYG/PzhwIqGW0xa3A7mEC13hm801H7H0LY5mqGquDpdT1wxjmVJTapv5JafxQhGPAQUWxWQyQ9pD1op+6lLZ3ZdYfZqyEB0GkkpSWsxlauD9WOi+SQp6iSG8xjVmRt9R2m4m1x7mNRWPedlXVtS2NE/OjZFOz1IfpYlrWsZAo1jl0s1Sj/73LR3AqvjwGQMrmaDN+PW356quZSxYcpfKf8PNoNbCEYVqO/JBRNBWni5lZ4RAWV+J8mHvYHM5F3dG1GxpJGe0GyQ8dRQMeZENfxmyhhQhL4jYvxmOWyhs1LQtENuRdqUcdMqVQMWhZ6T/G8M3T9t7oWU10EmNTDHne95X+n9dD0aiZQgB/8M9kXOdp0XTloP/BX0yCEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhP6//gM5UT0Rlq7HZQAAAABJRU5ErkJggg==" alt="Twitter" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" />
         </a>
         <a href="https://www.instagram.com" target="_blank" class="social-icon">
           <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" />
         </a>
         <a href="https://www.linkedin.com" target="_blank" class="social-icon">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC" alt="LinkedIn" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" />
         </a>
       </div>
     </div>
-  </div>
 
-  <div class="right-footer custom-footer3">
-    <h6>What can we help you with?</h6>
-    <div class="d-flex flex-column align-items-start">
-      <a href="index.html" class="text-decoration-none text-white mb-2">Home</a>
-      <a href="about.html" class="text-decoration-none text-white mb-2">About</a>
-      <a href="article.html" class="text-decoration-none text-white mb-2">Articles</a>
-      <a href="signin.html" class="text-decoration-none text-white mb-2">Sign In</a>
-      <a href="signup.html" class="text-decoration-none text-white mb-2">Sign Up</a>
-      <a href="book.html" class="text-decoration-none text-white mb-2">Book Appointment</a>
+    <div class="right-footer">
+      <h6 class="mb-3">What can we help you with?</h6>
+      <div class="d-flex flex-column align-items-start">
+        <a href="index.html" class="text-decoration-none text-white mb-2">Home</a>
+        <a href="about.html" class="text-decoration-none text-white mb-2">About</a>
+        <a href="article.html" class="text-decoration-none text-white mb-2">Articles</a>
+        <a href="signin.html" class="text-decoration-none text-white mb-2">Sign In</a>
+        <a href="signup.html" class="text-decoration-none text-white mb-2">Sign Up</a>
+        <a href="start.html" class="text-decoration-none text-white mb-2">Things You Must Know</a>
+        <a href="book.html" class="text-decoration-none text-white mb-2">Book Appointment</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HoA1rqA4yUqRMt9Ec2/1I1sRy6xW5/vnI0t+ak1NW5EVjmr7Ba4fvTyYkS5hZHQ6" crossorigin="anonymous"></script>
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+  </script>
 </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76A2z02tPqdjG+6gCq4HrYidN+4/OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
